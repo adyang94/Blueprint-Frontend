@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Box, Text, Radio, RadioGroup, Button, VStack, Progress, Spinner, Container, Flex } from '@chakra-ui/react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Box, Text, Radio, RadioGroup, Button, VStack } from '@chakra-ui/react';
 
 function Question({displayName, sectionTitle, question, options, handleNextQuestion}) {
 

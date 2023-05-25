@@ -10,11 +10,11 @@ function App() {
     <div>
       <ChakraProvider>
 
-        <Router>
+        <Router >
           <Routes>
-            <Route path="/homepage" element={<Homepage />} />
+            <Route path="/" element={<Homepage />} />
             <Route path="/questionnaire" element={<Questionnaire />} />
-            <Route path='*' element={<Navigate to='/homepage' />} />
+            <Route path='*' element={<Navigate to='/' />} />
           </Routes>
         </Router>
 

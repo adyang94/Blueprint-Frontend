@@ -1,14 +1,16 @@
 # Read Me
 
 ### Problem and Solution:
+My UI can be found here:  https://wonderful-coast-001950d10.3.azurestaticapps.net/
+
 For this problem, I created an API and web UI both hosted on Azure Web Services.  The API is a simple Node/Express application and the web UI is created in React with Chakra UI.
 
-I did also build the UI to handle if there may be multiple sections to the questionnaire.  This can be simulated by uncommenting the "TODO:" comments in the Questionnaire.js file, which will pull in a static json file with multiple sections to the questionnaire.  The sample json file can be found in sampleQuestions.json.
+I did also build the UI to handle if there may be multiple sections to the questionnaire.  This can be simulated by cloning the repo, uncommenting the "TODO:" comments in the Questionnaire.js file, running `npm i` to install dependencies, and running `npm start`.  The sample json file of questions can be found in sampleQuestions.json.
 
 ### Technical Choices:
 For my design, I decided to use React with Chakra UI for the frontend, and NodeJS/Express for the backend.  As far as technical reasoning, React is a very popular framework that allows for good organization and maintanability of the code.  Chakra UI is popular component library that provides consistent design and speeds up the development process with pre-styled components.
 
-Node/Express is commonly used for a lot of web applications using Javascript for the backend.  This allows for reduced learning curve which is an important consideration for engineering resource management.  Node is also great for handling asynchronous tasks, fairly lightweight, and has a vast amount of libraries; Express is unopinionated and well supported within the community.  Having these considerations in mind, Node/Express is great for quickly spinning up an application such as this coding exam when 
+Node/Express is commonly used for a lot of web applications using Javascript for the backend.  This allows for reduced learning curve which is an important consideration for engineering resource management.  Node is also great for handling asynchronous tasks, fairly lightweight, and has a vast amount of libraries; Express is unopinionated and well supported within the community.  Having these considerations in mind, Node/Express is great for quickly spinning up an application, such as this coding exam. 
 
 ### Deploying this as to a true production environment
 There are a variety of considerations that I would ask before deciding to deploy this as a true production app.  A couple of questions that I would want to clarify would include:
