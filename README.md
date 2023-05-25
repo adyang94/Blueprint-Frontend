@@ -1,9 +1,9 @@
 # Read Me
 
 ### Problem and Solution:
-UI:  https://wonderful-coast-001950d10.3.azurestaticapps.net/
-Frontend Repo: https://github.com/adyang94/Blueprint-Frontend
-Backend Repo:  https://github.com/adyang94/Blueprint-Backend
+UI:  https://wonderful-coast-001950d10.3.azurestaticapps.net/  
+Frontend Repo: https://github.com/adyang94/Blueprint-Frontend  
+Backend Repo:  https://github.com/adyang94/Blueprint-Backend  
 
 For this problem, I created an API and web UI both hosted on Azure Web Services.  The API is a simple Node/Express application and the web UI is created in React with Chakra UI.
 
