@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/blueprint-frontend/static/css/main.31d6cfe0.css",
-    "main.js": "/blueprint-frontend/static/js/main.cbbdbe8d.js",
-    "static/js/787.cda612ba.chunk.js": "/blueprint-frontend/static/js/787.cda612ba.chunk.js",
-    "index.html": "/blueprint-frontend/index.html",
-    "main.cbbdbe8d.js.map": "/blueprint-frontend/static/js/main.cbbdbe8d.js.map",
-    "787.cda612ba.chunk.js.map": "/blueprint-frontend/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/static/css/main.31d6cfe0.css",
+    "main.js": "/static/js/main.38235214.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "index.html": "/index.html",
+    "main.38235214.js.map": "/static/js/main.38235214.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.cbbdbe8d.js"
+    "static/js/main.38235214.js"
   ]
 }
