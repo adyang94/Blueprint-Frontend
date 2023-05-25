@@ -1,11 +1,15 @@
 # Read Me
 
 ### Problem and Solution:
-My UI can be found here:  https://wonderful-coast-001950d10.3.azurestaticapps.net/
+UI:  https://wonderful-coast-001950d10.3.azurestaticapps.net/
+Frontend Repo: https://github.com/adyang94/Blueprint-Frontend
+Backend Repo:  https://github.com/adyang94/Blueprint-Backend
 
 For this problem, I created an API and web UI both hosted on Azure Web Services.  The API is a simple Node/Express application and the web UI is created in React with Chakra UI.
 
-I did also build the UI to handle if there may be multiple sections to the questionnaire.  This can be simulated by cloning the repo, uncommenting the "TODO:" comments in the Questionnaire.js file, running `npm i` to install dependencies, and running `npm start`.  The sample json file of questions can be found in sampleQuestions.json.
+I did also build the UI to handle in the case there may be multiple sections to the questionnaire.  This can be simulated by cloning the repo, uncommenting the "TODO:" comments in the Questionnaire.js file, running `npm i` to install dependencies, and running `npm start`.  The sample json file of questions can be found in sampleQuestions.json on this Frontend Repo.  
+
+The backend follows a basic MVC set up with 2 endpoints. The "/fetch-questions" endpoint is set up to retrieve all questions for the questionnaire and return it in the format mentioned in the task.  The "/score-assessments" endpoint is used to evaluate the answers given from the user, and returns the level-2 assessments based on the mapping criteria given. I've also added additional comparators when used for determining if meeting the threshold of the level 2 criteria (this is found in scoringController.js in the Backend Repo).
 
 ### Technical Choices:
 For my design, I decided to use React with Chakra UI for the frontend, and NodeJS/Express for the backend.  As far as technical reasoning, React is a very popular framework that allows for good organization and maintanability of the code.  Chakra UI is popular component library that provides consistent design and speeds up the development process with pre-styled components.
@@ -28,3 +32,8 @@ In regards to security, I would make sure we followed strong security protocols 
 
 There are a couple of ways that I would consider to help make troubleshooting easier.  As mentioned previously, a logging system would be useful for identifying not just security issues, but also other issues related to performance, bugs, etc.  This idea combined with dashboards and alerts would be great to get insights in a timely manner if issues do arise.  I also believe being proactive in finding problems will help with future troubleshooting of problems.  Tests such as performance testing and penetration testing could reveal bottlenecks and vunerabilities that could give insight into what would be most likely to fail and where to look first when troubleshooting.
 
+### Improvement
+Some aspects for improvement if given more time would include developing or integrating a more robust authentication and authorization system.  This is key especially for working with sensitive data.  I would also like to add more tests such as unit tests or end-to-end tests to make sure breaking changes are caught sooner and coverage is strong.
+
+I appreciate the time you've taken to review, and please don't hesistate to reach out if there are any questions still!
+https://www.linkedin.com/in/andrew-yang-715a07b5/
